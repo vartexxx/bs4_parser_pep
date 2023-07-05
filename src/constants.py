@@ -11,6 +11,9 @@ LOG_DIR = BASE_DIR / 'logs'
 LOG_FORMAT = '%(asctime)s - [%(levelname)s] - %(message)s'
 DT_FORMAT = '%d.%m.%Y %H:%M:%S'
 
+PRETTY = 'pretty'
+FILE = 'file'
+
 EXPECTED_STATUS = {
     'A': ('Active', 'Accepted'),
     'D': ('Deferred',),
